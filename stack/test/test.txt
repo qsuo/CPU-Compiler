@@ -1,0 +1,42 @@
+# Testing Stack
+Stack (OK)  [0x0x7ffea19d1620]
+{
+  data [2] = 0x0x898020
+  {
+    [0] = POISON
+    [1] = POISON
+  }
+}
+
+Stack (OK)  [0x0x7ffea19d1620]
+{
+  data [2] = 0x0x898020
+  {
+    [0] = 10
+    [1] = 25
+  }
+}
+
+Stack (OK)  [0x0x7ffea19d1620]
+{
+  data [4] = 0x0x898020
+  {
+    [0] = 0
+    [1] = 25
+    [2] = 30
+    [3] = POISON
+  }
+}
+
+Stack (OK)  [0x0x7ffea19d1620]
+{
+  data [4] = 0x0x898020
+  {
+    [0] = 0
+    [1] = 25
+    [2] = POISON
+    [3] = POISON
+  }
+}
+
+Poped value = 30
